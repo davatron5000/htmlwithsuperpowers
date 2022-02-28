@@ -10,4 +10,4 @@ I have strong opinions on what makes for a Good Podcast Player:tm:, so I built a
 <script type="module" src="path/to/podcast-player.js"></script>
 ```
 
-![A web inspector view of the Shadow Root tree](/images/podcast-player.png)
+![A web inspector view of the Shadow Root tree](../../images/podcast-player.png)

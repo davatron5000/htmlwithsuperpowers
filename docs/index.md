@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /images/htmlwithsuperpowers.png
+heroImage: './images/htmlwithsuperpowers.png'
 heroAlt: HTML with Superpowers
 heroText: HTML with Superpowers
 tagline: An Introduction to Web Components
