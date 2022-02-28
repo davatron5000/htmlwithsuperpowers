@@ -1,0 +1,1 @@
+- [facebook/react#11347](https://github.com/facebook/react/issues/11347#issuecomment-988970952)
