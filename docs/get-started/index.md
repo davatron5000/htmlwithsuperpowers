@@ -39,7 +39,7 @@ Another superpower :sparkles: of Web Components is that they don't require any e
 
 A little social validation goes a long way...
 
-![Google, Microsoft, YouTube, IBM, ING Bank, RedHat, GitHub, Salesforce, Adobe](../images/socialvalidation.png)
+![Google, Microsoft, YouTube, IBM, ING Bank, RedHat, GitHub, Salesforce, Adobe](/images/socialvalidation.png)
 
 One thing you'll notice about these companies is that they all tend to be large companies. Because Web Components are framework agnostic (part of the web platform), they have the ability to work on a wide variety of different backends languages or front-end templating systems. You don't need to rearchitect your entire front-end to support Web Components, they graft in to fit with your existing systems. 
 
