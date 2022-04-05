@@ -8,3 +8,4 @@ A handful of public design systems are using Web Components in the wild.
 - [Fast](https://www.fast.design/) by Microsoft
 - [Spectrum Web Components](https://opensource.adobe.com/spectrum-web-components/)  by Adobe
 - [Ionic Framework](https://ionicframework.com/docs/components) by Ionic
+- [Shoelace](https://shoelace.style/) by Cory LaViska

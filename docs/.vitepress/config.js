@@ -12,6 +12,7 @@ export default defineConfig({
       { text: 'Using', link: '/using/', activeMatch: '^/using/'},
       { text: 'Styling', link: '/styling/', activeMatch: '^/styling/'},
       { text: 'Writing', link: '/writing/', activeMatch: '^/writing/'},
+      { text: 'Examples', link: '/examples/', activeMatch: '^/examples/'},
       { text: 'FAQ', link: '/faq/', activeMatch: '^/faq/'},
     ],
     sidebar: {
@@ -41,7 +42,7 @@ export default defineConfig({
           {text: '<geo-elements>', link: '/using/examples/geo-elements' },
         ]},
         {text: 'Finding components', children: [
-          {text: 'Standalone Web Components', link:'/using/standalones'},
+          {text: 'Standalone Components', link:'/using/standalones'},
           {text: 'Web Component Design Systems', link:'/using/systems'}
         ]}
       ],
@@ -69,14 +70,9 @@ export default defineConfig({
       '/writing/': [
         {text: 'How to write with JS', children: [
           {text: 'Overview', link: '/writing/' },
-          {text: 'Libraries', link: '/writing/libraries' },
+          {text: 'Web Component Libraries', link: '/writing/libraries' },
         ]},
-        {text: 'Example: Custom Alert', children: [
-          {text: 'Step 1: Basic Setup', link: '/writing/step1' },
-          {text: 'Step 2: Add Event Handling', link: '/writing/step2' },
-          {text: 'Step 3: Add Styling', link: '/writing/step3' },
-          {text: 'Step 4: Review', link: '/writing/step4' },
-        ]},
+
         {text: 'Advanced Concepts', children: [
           {text: 'Declarative Shadow DOM', link: '/writing/declarative-shadow-dom' },
           {text: 'ElementInternals', link: '/writing/element-internals' },
@@ -84,14 +80,29 @@ export default defineConfig({
           {text: 'The is="" attribute', link: '/writing/is'},
         ]},
       ],
+      '/examples/': [
+        {text: 'Example: Counter', children: [
+          {text: 'Step 1: Basic Setup', link: '/examples/counter/step1' }
+        ]},
+        {text: 'Example: Custom Alert', children: [
+          {text: 'Step 1: Basic Setup', link: '/examples/custom-alert/step1' },
+          {text: 'Step 2: Add Event Handling', link: '/examples/custom-alert/step2' },
+          {text: 'Step 3: Add Styling', link: '/examples/custom-alert/step3' },
+          {text: 'Step 4: Review', link: '/examples/custom-alert/step4' },
+        ]},
+        {text: 'Example: App', children: [
+          {text: 'Step 1: Our first CLI tool', link: '/examples/example-app/step1' }
+        ]},
+      ],
       '/faq/': [
         {text: 'Frequently Asked Questions', children: [
           {text: 'Accessibility', link: '/faq/accessibility' },
+          {text: 'Context API', link: '/faq/context-api' },
           {text: 'IE11', link: '/faq/ie11' },
+          {text: 'React', link: '/faq/react' },
+          {text: 'Routing', link: '/faq/routing' },
           {text: 'Search Engine Optimization (SEO)', link: '/faq/seo' },
           {text: 'Server-side Rendering (SSR)', link: '/faq/ssr' },
-          {text: 'Routing', link: '/faq/routing' },
-          {text: 'Context API', link: '/faq/context-api' },
         ]}
       ],
     }

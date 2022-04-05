@@ -22,3 +22,8 @@ But you can also do this at the global `document` level as well.
 import sheet from './custom-alert.css' assert {type: 'css'};
 document.adoptedStyleSheets = [sheet];
 ```
+
+## Resources
+
+- https://web.dev/constructable-stylesheets/
+- https://web.dev/css-module-scripts/
