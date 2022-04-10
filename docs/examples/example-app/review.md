@@ -119,7 +119,7 @@ import 'https://unpkg.com/@material/mwc-button?module';
 class BreweryTemplate extends LitElement {
   static get styles() {
     return css`
-      .brewery {
+      :host {
         position: relative;
       }
       .check {
@@ -138,14 +138,12 @@ class BreweryTemplate extends LitElement {
 
   render() {
     return html`
-    <div class="brewery">
       <span class="check">${this.brewery.visited ? '✅' : ''}</span>
       <h3> ${this.brewery.name}</h3>
       <p><a href="${this.brewery.website_url}">${this.brewery.website_url}</a></p>
       <mwc-button @click=${this.toggleVisitedStatus}>
         Mark as ${this.brewery.visited ? 'not-visited' : 'visited'}
       </mwc-button>
-    </div>
   `;
   }
 }

@@ -4,7 +4,7 @@
 🧑‍🚀 If you're reading this in the distant future CLI tools may have changed so your experience may be different. 
 :::
 
-We're going to make a demo [brewery app based on this example from Open WC](https://open-wc.org/codelabs/intermediate/lit-html.html). 
+We're going to make a demo [brewery app based on this example from Open WC](https://open-wc.org/codelabs/intermediate/lit-html.html). We'll get started a little bit differently this time, we'll need to open a terminal on your local computer (with `npm` version 14+ installed) and use our first CLI tool:
 
 ```bash
 npm init @open-wc

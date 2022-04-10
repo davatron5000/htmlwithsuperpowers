@@ -72,7 +72,7 @@ export default defineConfig({
       '/writing/': [
         {text: 'How to write with JS', children: [
           {text: 'Overview', link: '/writing/' },
-          {text: 'Web Component Libraries', link: '/writing/libraries' },
+          {text: 'Comparing Web Component Libraries', link: '/writing/libraries' },
           {text: 'JS Frameworks', link: '/writing/js-frameworks' },
         ]},
 

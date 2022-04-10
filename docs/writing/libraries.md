@@ -1,4 +1,4 @@
-# Libraries
+# Comparing Web Component Libraries
 
 I tend to shy away from recommending needless JavaScript libraries. They can lead to bloat that gets passed on to the user which ruins their user experience. But it's important to note that Web Components were *intentionally designed* to be a low-level web platform feature for authors to build libraries and frameworks. Often the user costs of these small libraries get amortized over dozens of components.
 
