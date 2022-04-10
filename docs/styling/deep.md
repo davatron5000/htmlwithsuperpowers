@@ -26,8 +26,8 @@ No matter how hard you try, you're not able to pierce the Shadow DOM with this s
 
 ## Example
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="Styling Light DOM" src="https://codepen.io/davatron5000/embed/YzEJWjr/925d38ef0a76de81e28673d6b5ac704b?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe height="300" style="width: 100%;" scrolling="no" title="Deep Styling Shadow DOM" src="https://codepen.io/davatron5000/embed/YzEJWjr/925d38ef0a76de81e28673d6b5ac704b?default-tab=html%2Cresult&theme-id=light" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/davatron5000/pen/YzEJWjr/925d38ef0a76de81e28673d6b5ac704b">
-  Styling Light DOM</a> by Dave Rupert (<a href="https://codepen.io/davatron5000">@davatron5000</a>)
+  Deep Styling Shadow DOM</a> by Dave Rupert (<a href="https://codepen.io/davatron5000">@davatron5000</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>

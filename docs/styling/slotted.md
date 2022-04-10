@@ -1,6 +1,6 @@
-# `:slotted()` pseudo-element
+# `::slotted()` pseudo-element
 
-The `:slotted()` pseudo-element let's you shallowly target slotted elements.
+The `::slotted()` pseudo-element let's you shallowly target slotted elements.
 
 ```css
 :slotted(p) {
@@ -30,3 +30,4 @@ This example would turn all direct child `<p>` elements slotted inside the custo
 ## Resources
 
 - [MDN]()
+- [ShadowDOM v1](https://web.dev/shadowdom-v1/)

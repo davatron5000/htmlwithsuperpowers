@@ -1,12 +1,6 @@
-# A counter component
+# Step 2: Add Local State
 
-Let's start with a classic, a counter component.
-
-```html
-<qty-picker></qty-picker>
-```
-
-```js
+```js{14-16,21}
 import { LitElement, html } from 'https://cdn.skypack.dev/lit-element'
 
 class Counter extends LitElement {
@@ -20,9 +14,14 @@ class Counter extends LitElement {
     this.counter = 0
   }
 
+  increment() {
+    this.counter++
+  }
+
   render() {
     return html`
       <div>${this.counter}</div>
+      <button @click="${this.increment}">Increment</button>
     `
   }
 }

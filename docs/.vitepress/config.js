@@ -4,7 +4,6 @@ export default defineConfig({
   description: 'Introduction to Web Components',
   lang: 'en-US',
   markdown: {
-    lineNumbers: true
   },
   themeConfig: {
     nav: [
@@ -35,10 +34,12 @@ export default defineConfig({
           {text: '<two-up>', link: '/using/examples/two-up' },
           {text: '<copy-table>', link: '/using/examples/copy-table' },
           {text: '<podcast-player>', link: '/using/examples/podcast-player' },
+          {text: '<details-utils>', link: '/using/examples/details-utils' },
           {text: '<spicy-sections>', link: '/using/examples/spicy-sections' },
           {text: '<a-frame>', link: '/using/examples/a-frame' }
         ]},
-        {text: 'Please don’t', children: [
+        {text: 'Component systems', children: [
+          {text: '<generic-components>', link: '/using/examples/generic-components' },
           {text: '<geo-elements>', link: '/using/examples/geo-elements' },
         ]},
         {text: 'Finding components', children: [
@@ -53,7 +54,7 @@ export default defineConfig({
         {text: 'Piercing the Shadow DOM', children: [
           {text: '✅ Styling Light DOM', link: '/styling/light-dom' },
           {text: '❌ Styling Shadow DOM', link: '/styling/deep' },
-          {text: '❌ Classes', link: '/styling/classes' },
+          {text: '❌ Global Classes', link: '/styling/classes' },
           {text: '✅ Inheritable Styles', link: '/styling/inheritable' }
         ]},
         {text: 'Internal styling APIs', children: [
@@ -63,7 +64,8 @@ export default defineConfig({
         ]},
         {text: 'Internal CSS features', children: [
           {text: ':host', link: '/styling/host' },
-          {text: ':slotted()', link: '/styling/slotted' },
+          {text: ':host-context()', link: '/styling/host-context' },
+          {text: '::slotted()', link: '/styling/slotted' },
           {text: ':defined', link: '/styling/defined' },
         ]}
       ],
@@ -71,6 +73,7 @@ export default defineConfig({
         {text: 'How to write with JS', children: [
           {text: 'Overview', link: '/writing/' },
           {text: 'Web Component Libraries', link: '/writing/libraries' },
+          {text: 'JS Frameworks', link: '/writing/js-frameworks' },
         ]},
 
         {text: 'Advanced Concepts', children: [
@@ -82,16 +85,23 @@ export default defineConfig({
       ],
       '/examples/': [
         {text: 'Example: Counter', children: [
-          {text: 'Step 1: Basic Setup', link: '/examples/counter/step1' }
+          {text: 'Step 1: Basic Setup', link: '/examples/counter/step1' },
+          {text: 'Step 2: Add Local State', link: '/examples/counter/step2' },
+          {text: 'Step 3: Add Public API', link: '/examples/counter/step3' },
+          {text: 'Step 4: Review', link: '/examples/counter/review' }
         ]},
         {text: 'Example: Custom Alert', children: [
           {text: 'Step 1: Basic Setup', link: '/examples/custom-alert/step1' },
           {text: 'Step 2: Add Event Handling', link: '/examples/custom-alert/step2' },
           {text: 'Step 3: Add Styling', link: '/examples/custom-alert/step3' },
-          {text: 'Step 4: Review', link: '/examples/custom-alert/step4' },
+          {text: 'Step 4: Review', link: '/examples/custom-alert/review' },
         ]},
-        {text: 'Example: App', children: [
-          {text: 'Step 1: Our first CLI tool', link: '/examples/example-app/step1' }
+        {text: 'Example: Brewery App', children: [
+          {text: 'Step 1: Project Setup', link: '/examples/example-app/step1' },
+          {text: 'Step 2: Setup App Wrapper', link: '/examples/example-app/step2' },
+          {text: 'Step 3: Fetch Breweries', link: '/examples/example-app/step3' },
+          {text: 'Step 4: Add Visited State', link: '/examples/example-app/step4' },
+          {text: 'Step X: Review', link: '/examples/example-app/review' }
         ]},
       ],
       '/faq/': [

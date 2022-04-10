@@ -1,6 +1,6 @@
 # What about React?
 
-**Short answer: Yes-ish** and the situation may be getting better.
+**Short answer: Yes-ish** and the situation may be getting better in React 19.
 
 React –due to its popularity– is a notable outlier in [Custom Elements Everywhere](https://custom-elements-everywhere.com/) support matrix that documents which JS frameworks. 
 

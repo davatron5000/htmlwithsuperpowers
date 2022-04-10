@@ -16,4 +16,5 @@ The `:host` pseudo-class is a reference to the custom element itself, but you're
 
 ## Resources
 
+- [Web Component Pseudo-Classes and Pseudo-Elements are Easier Than You Think](https://css-tricks.com/web-component-pseudo-classes-and-pseudo-elements/)
 - [MDN]()

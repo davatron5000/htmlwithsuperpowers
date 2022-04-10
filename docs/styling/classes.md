@@ -1,4 +1,4 @@
-# Class-based styling
+# Global class-based styling
 
 ## Example
 

@@ -43,17 +43,15 @@ Shadow Roots have two modes
 
 ## Appending a `<template>`
 
-```js{4-7}
+```js{1-2,7-8}
 const myTemplate = document.createElement('template')
-myTemplate.innerHTML = `
-  <div>Hello, world!</div>
-`;
+myTemplate.innerHTML = `<div>Hello, world!</div>`;
 
 class CustomAlert extends HTMLElement {
   constructor() {
     super();
-    this._shadowRoot = this.attachShadow({ mode: 'open'    })
-    this._shadowRoot.appendChild(myTemplate.content.cloneNode(true))
+    this.#shadowRoot = this.attachShadow({ mode: 'open'    })
+    this.#shadowRoot.appendChild(myTemplate.content.cloneNode(true))
   }
 }
 ```

@@ -1,18 +1,12 @@
-# A counter component
+# Step 2: Public API
 
-Let's start with a classic, a counter component.
-
-```html
-<qty-picker></qty-picker>
-```
-
-```js
+```js{6}
 import { LitElement, html } from 'https://cdn.skypack.dev/lit-element'
 
 class Counter extends LitElement {
 
   static properties = {
-    counter: {state: true},
+    counter: {type: Number},
   }
 
   constructor() {
@@ -20,9 +14,14 @@ class Counter extends LitElement {
     this.counter = 0
   }
 
+  increment() {
+    this.counter++
+  }
+
   render() {
     return html`
       <div>${this.counter}</div>
+      <button @click="${this.increment}">Increment</button>
     `
   }
 }

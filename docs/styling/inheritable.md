@@ -43,7 +43,7 @@ Here's a list of inheritable styles:
 - word-wrap
 
 <style>
-#inheritable-styles-pierce-the-shadow-dom ~ ul {
+#inheritable-styles-pierce-the-shadow-dom ~ ul:first-of-type {
   columns: 3
 }
 </style>
@@ -59,3 +59,7 @@ You can see that most of these fall under the umbrella of text, list, or table f
 </iframe>
 
 As shown by this example, the `color` value passes through to the Shadow DOM markup, but the `font-family` on the `<button>` is not passing. This is – in part – due to the unique aspects of `<button>` being a replaced element, but demonstrates that while inherited styles do pass down, there are still limitations with this approach.
+
+## Resources
+
+- [Why is my Web Component inheriting styles?](https://lamplightdev.com/blog/2019/03/26/why-is-my-web-component-inheriting-styles/)

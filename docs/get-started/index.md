@@ -30,7 +30,7 @@ What makes Web Components different than JS frameworks is that they're a set of 
 We'll go in-depth into each of these pieces in the next section, but these give Web Components some unique superpowers :sparkles: like pre-parsed templates, style and script encapsulation, as well as importable assets.
 
 
-## Toolless Web Development
+## Buildless Web Development
 
 Another superpower :sparkles: of Web Components is that they don't require any extra tooling, libraries, or bundlers to use. Production code will want bundled and minified JavaScript and you may find a library makes coding Web Components more ergonomic, but that is all opt-in. 
 
