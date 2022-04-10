@@ -23,7 +23,15 @@ custom-alert:nth-of-type(2) {
 }
 ```
 
-## Example
+## Demo 
+
+<iframe height="400" style="width: 100%;" scrolling="no" title="&lt;custom-alert&gt; theme demo" src="https://codepen.io/davatron5000/embed/GRyGBjJ?default-tab=html%2Cresult&theme-id=light" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/davatron5000/pen/GRyGBjJ">
+  &lt;custom-alert&gt; theme demo</a> by Dave Rupert (<a href="https://codepen.io/davatron5000">@davatron5000</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+## `<two-up>` Example
 
 The `<two-up>` component offers a handful of variables that for customization.
 
