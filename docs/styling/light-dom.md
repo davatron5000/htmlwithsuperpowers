@@ -17,8 +17,8 @@ From your global stylesheet you are able to style anything that exists in the Li
 
 ## Example
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="Styling Light DOM" src="https://codepen.io/davatron5000/embed/BamqzVO/281a75d9b65b909aa24e26a672efdd2a?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/davatron5000/pen/BamqzVO/281a75d9b65b909aa24e26a672efdd2a">
+<iframe height="300" style="width: 100%;" scrolling="no" title="Styling Light DOM" src="https://codepen.io/davatron5000/embed/BamqzVO/?default-tab=html%2Cresult&theme-id=light" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/davatron5000/pen/BamqzVO/">
   Styling Light DOM</a> by Dave Rupert (<a href="https://codepen.io/davatron5000">@davatron5000</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>

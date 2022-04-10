@@ -1,7 +1,11 @@
 # `:host-context()` pseudo-class
 
 ```html
-<>
+<example-element></example-element>
+<div class="card">
+  <example-element></example-element>
+</div>
+```
 
 ```css
 :host-context(.card) { background:pink; }

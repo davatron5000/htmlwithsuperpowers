@@ -52,7 +52,7 @@ You can see that most of these fall under the umbrella of text, list, or table f
 
 ## Example
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="Class-styling Shadow DOM" src="https://codepen.io/davatron5000/embed/ZEaqOqY/feea3651111d3824b9dafc1d7c95dcd6?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe height="300" style="width: 100%;" scrolling="no" title="Class-styling Shadow DOM" src="https://codepen.io/davatron5000/embed/ZEaqOqY/feea3651111d3824b9dafc1d7c95dcd6?default-tab=html%2Cresult&theme-id=light" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/davatron5000/pen/ZEaqOqY/feea3651111d3824b9dafc1d7c95dcd6">
   Class-styling Shadow DOM</a> by Dave Rupert (<a href="https://codepen.io/davatron5000">@davatron5000</a>)
   on <a href="https://codepen.io">CodePen</a>.

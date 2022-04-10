@@ -25,8 +25,8 @@ Then in your
 
 :warning: The following works only in Chrome. 
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="Untitled" src="https://codepen.io/davatron5000/embed/KKyxBzJ/d52a7bd351d4a1ca3a3b292ecf89e490?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/davatron5000/pen/KKyxBzJ/d52a7bd351d4a1ca3a3b292ecf89e490">
-  Untitled</a> by Dave Rupert (<a href="https://codepen.io/davatron5000">@davatron5000</a>)
+<iframe height="600" style="width: 100%; resize: both;" scrolling="no" title="is attribute demo" src="https://codepen.io/davatron5000/embed/d52a7bd351d4a1ca3a3b292ecf89e490?default-tab=result&theme-id=light" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/davatron5000/pen/d52a7bd351d4a1ca3a3b292ecf89e490">
+  is attribute demo</a> by Dave Rupert (<a href="https://codepen.io/davatron5000">@davatron5000</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
