@@ -1,28 +1,49 @@
 # `:defined` pseudo-class
 
+`:defined` provides a styling hook for changing the custom-element on whether `customElements.define()` got called on that element.
 
 ```html
 <slow-element>This is stale content</slow-element>
 ```
 
-```js
-const template = document.createElement('template')
-template.innerHTML = `
-  <style>:defined { background: pink; }</style>
-  <div>Custom Element now defined</div>
-`
-
-class SlowElement extends HTMLElement {
-  connectedCallback() {
-    const clone = document.importNode(template.content, true);
-    this.appendChild(clone);
-  }
+```css
+slow-element:not(:defined) {
+  opacity: 0.1;
 }
 
-setTimeout( () => {
-  customElements.define('slow-element', SlowElement)
-}, 2000)
+slow-element:defined {
+  opacity: 1;
+}
 ```
+
+```js
+const template = document.createElement("template");
+template.innerHTML = `
+  <div>Custom Element now defined</div>
+`;
+
+class SlowElement extends HTMLElement {
+  constructor() {
+    super();
+    let templateContent = template.content;
+    this._shadowRoot = this.attachShadow({ mode: "open" });
+    this._shadowRoot.appendChild(templateContent.cloneNode(true));
+  }
+
+  connectedCallback() {}
+}
+
+setTimeout(() => {
+  customElements.define("slow-element", SlowElement);
+}, 2000);
+```
+
+## Demo
+<iframe height="600" style="width: 100%;" scrolling="no" title=":defined" src="https://codepen.io/davatron5000/embed/vYprrKa?default-tab=html%2Cresult&theme-id=light" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/davatron5000/pen/vYprrKa">
+  :defined</a> by Dave Rupert (<a href="https://codepen.io/davatron5000">@davatron5000</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 ## Resources
 

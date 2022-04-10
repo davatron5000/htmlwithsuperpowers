@@ -34,8 +34,8 @@ myTemplate.innerHTML = `
 class CustomAlert extends HTMLElement {
   constructor() {
     super();
-    this.#shadowRoot = this.attachShadow({ mode: 'open'    })
-    this.#shadowRoot.appendChild(myTemplate.content.cloneNode(true))
+    this._shadowRoot = this.attachShadow({ mode: 'open'    })
+    this._shadowRoot.appendChild(myTemplate.content.cloneNode(true))
   }
 }
 ```
