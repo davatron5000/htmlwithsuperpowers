@@ -1,4 +1,4 @@
-# Step 3: Add Types
+# Step 3: Add External API
 
 ```js{6}
 import { LitElement, html } from 'https://cdn.skypack.dev/lit-element'
@@ -6,7 +6,7 @@ import { LitElement, html } from 'https://cdn.skypack.dev/lit-element'
 class Counter extends LitElement {
 
   static properties = {
-    counter: {type: Number, state: true},
+    counter: { type: Number },
   }
 
   constructor() {

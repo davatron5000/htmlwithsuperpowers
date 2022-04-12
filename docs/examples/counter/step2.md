@@ -6,7 +6,7 @@ import { LitElement, html } from 'https://cdn.skypack.dev/lit-element'
 class Counter extends LitElement {
 
   static properties = {
-    counter: {state: true},
+    counter: { state: true },
   }
 
   constructor() {
