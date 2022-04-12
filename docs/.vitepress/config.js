@@ -87,7 +87,7 @@ export default defineConfig({
         {text: 'Example: Counter', children: [
           {text: 'Step 1: Basic Setup', link: '/examples/counter/step1' },
           {text: 'Step 2: Add Local State', link: '/examples/counter/step2' },
-          {text: 'Step 3: Add Public API', link: '/examples/counter/step3' },
+          {text: 'Step 3: Add Types', link: '/examples/counter/step3' },
           {text: 'Step 4: Review', link: '/examples/counter/review' }
         ]},
         {text: 'Example: Custom Alert', children: [
