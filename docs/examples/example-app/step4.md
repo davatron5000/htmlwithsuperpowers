@@ -47,7 +47,7 @@ class BreweryApp extends LitElement {
             <li>
               <h3>${brewery.name}</h3>
               <button @click=${() => this.toggleVisitedStatus(brewery)}>
-                Mark as ${this.brewery.visited ? 'not-visited' : 'visited'}
+                Mark as ${brewery.visited ? 'not-visited' : 'visited'}
               </button>
             </li>
           `,

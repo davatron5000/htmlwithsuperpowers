@@ -44,6 +44,3 @@ export class CustomAlert extends LitElement {
 }
 window.customElements.define('custom-alert', CustomAlert)
 ```
-
-## `html` tagged templates
-

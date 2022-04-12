@@ -70,9 +70,9 @@ class BreweryApp extends LitElement {
       <h2>Breweries</h2>
       <p>(${totalVisited} visited and ${totalNotVisited} still to go)</p>
 
-      <mwc-button @click=${this._filterNone}>Filter none</mwc-button>
-      <mwc-button @click=${this._filterVisited}>Filter visited</mwc-button>
-      <mwc-button @click=${this._filterNotVisited}>Filter not-visited</mwc-button>
+      <mwc-button @click=${() => {this.filter = null}}>Filter none</mwc-button>
+      <mwc-button @click=${() => {this.filter = 'visited'}}>Filter visited</mwc-button>
+      <mwc-button @click=${() => {this.filter = 'not-visited'}}>Filter not-visited</mwc-button>
 
       <ul>
         ${breweries.map(
@@ -93,18 +93,6 @@ class BreweryApp extends LitElement {
     this.breweries = this.breweries.map(brewery => brewery === breweryToUpdate
       ? { ...brewery, visited: !brewery.visited }
       : brewery);
-  }
-
-  _filterNone() {
-    this.filter = null;
-  }
-
-  _filterVisited() {
-    this.filter = 'visited';
-  }
-
-  _filterNotVisited() {
-    this.filter = 'not-visited';
   }
 }
 

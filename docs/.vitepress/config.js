@@ -88,13 +88,13 @@ export default defineConfig({
           {text: 'Step 1: Basic Setup', link: '/examples/counter/step1' },
           {text: 'Step 2: Add Local State', link: '/examples/counter/step2' },
           {text: 'Step 3: Add Types', link: '/examples/counter/step3' },
-          {text: 'Step 4: Review', link: '/examples/counter/review' }
+          {text: 'Review', link: '/examples/counter/review' }
         ]},
         {text: 'Example: Custom Alert', children: [
           {text: 'Step 1: Basic Setup', link: '/examples/custom-alert/step1' },
           {text: 'Step 2: Add Event Handling', link: '/examples/custom-alert/step2' },
           {text: 'Step 3: Add Styling', link: '/examples/custom-alert/step3' },
-          {text: 'Step 4: Review', link: '/examples/custom-alert/review' },
+          {text: 'Review', link: '/examples/custom-alert/review' },
         ]},
         {text: 'Example: Brewery App', children: [
           {text: 'Step 1: Project Setup', link: '/examples/example-app/step1' },
@@ -102,7 +102,9 @@ export default defineConfig({
           {text: 'Step 3: Fetch Breweries', link: '/examples/example-app/step3' },
           {text: 'Step 4: Add Visited State', link: '/examples/example-app/step4' },
           {text: 'Step 5: Add Filtering', link: '/examples/example-app/step5' },
-          {text: 'Step X: Review', link: '/examples/example-app/review' }
+          {text: 'Step 6: Child components', link: '/examples/example-app/step6' },
+          {text: 'Step 7: Third-party components', link: '/examples/example-app/step7' },
+          {text: 'Review', link: '/examples/example-app/review' }
         ]},
       ],
       '/faq/': [
