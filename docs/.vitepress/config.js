@@ -101,6 +101,7 @@ export default defineConfig({
           {text: 'Step 2: Setup App Wrapper', link: '/examples/example-app/step2' },
           {text: 'Step 3: Fetch Breweries', link: '/examples/example-app/step3' },
           {text: 'Step 4: Add Visited State', link: '/examples/example-app/step4' },
+          {text: 'Step 5: Add Filtering', link: '/examples/example-app/step5' },
           {text: 'Step X: Review', link: '/examples/example-app/review' }
         ]},
       ],
