@@ -8,7 +8,7 @@ In the `v0` specification of Web Components was the idea that you could "extend"
 
 
 ```js
-customElement.define('word-count', WordCount, { extends: 'p' })
+customElements.define('word-count', WordCount, { extends: 'p' })
 ```
 
 Then in your 

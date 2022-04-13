@@ -20,7 +20,7 @@ class CustomAlert extends HTMLElement {
   disconnectedCallback() {} // componentWillUnmount
   attributeChangedCallback(oldValue, newValue) {}
 }
-customElement.define('custom-alert', CustomAlert)
+customElements.define('custom-alert', CustomAlert)
 ```
 
 ## Injecting a template
