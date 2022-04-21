@@ -42,9 +42,9 @@ Elements aren't limited to a single slot. If you want to provide multiple slots,
 </template>
 ```
 
-### `slotchanged` event
+### `slotchange` event
 
-Another unique superpower :sparkles: of the `<slot>` element is that it comes with a `slotchanged` event to notify the Web Component if the Light DOM content has updated.
+Another unique superpower :sparkles: of the `<slot>` element is that it comes with a `slotchange` event to notify the Web Component if the Light DOM content has updated.
 
 ## Resources
 
