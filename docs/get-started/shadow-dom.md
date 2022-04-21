@@ -17,10 +17,11 @@ The Shadow DOM is the most complicated part of Web Components because they offer
 </custom-alert>
 ```
 
-The Shadow DOM behaves a lot like an `<iframe>`, but better. Styling and scripting that happens within the Shadow DOM does not spill outside of its "shadow boundary". But two critical differences from an `<iframe>` are:
+The Shadow DOM behaves a lot like an `<iframe>`, but better. Styling and scripting that happens within the Shadow DOM does not spill outside of its "shadow boundary". But three critical differences from an `<iframe>` are:
 
 1. The Shadow DOM templates render as first-party content on the page.
 2. You avoid all the variable height issues related with `<iframe>` content.
+3. Interacting with (open) Shadow DOM is much easier and doesn't have the `postMessage` workarounds or related security issues that exist with `<iframe>`.
 
 ## Attaching a Shadow Root
 
