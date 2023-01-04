@@ -1,9 +1,15 @@
 ---
 title: Introduction to Web Components
+layout: doc
 ---
 
 # Introduction to Web Components
 
+::: info Watch My Course
+This guidebook is a supplement to my course on Frontend Masters. If you want the full experience, watch the full 4&frac12;-hour course.
+
+<a href="https://frontendmasters.com/courses/web-components" class="button brand medium">Take my course</a>
+:::
 
 Before we dive in, let's get an understanding of what Web Components are and what problems they're trying to solve.
 

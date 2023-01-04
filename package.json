@@ -9,6 +9,6 @@
     "docs:serve": "vitepress serve docs --port 5001"
   },
   "devDependencies": {
-    "vitepress": "^0.22.2"
+    "vitepress": "^1.0.0-alpha.35"
   }
 }

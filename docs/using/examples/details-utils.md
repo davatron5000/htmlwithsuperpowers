@@ -29,6 +29,7 @@ The `<details>` element is one of the best additions to HTML; a disclosure widge
   &lt;details-utils&gt; example</a> by Dave Rupert (<a href="https://codepen.io/davatron5000">@davatron5000</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
+
 ## Resources
 
 - [Details / Summary Are Not [insert control here]](https://adrianroselli.com/2019/04/details-summary-are-not-insert-control-here.html)

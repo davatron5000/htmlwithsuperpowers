@@ -3,6 +3,11 @@ title: How to use elementInternals
 ---
 # How to use `ElementInternals`
 
+
+::: info
+`ElementInternals` is **Chrome-only** but are [under development in Safari](https://github.com/WebKit/standards-positions/issues/47).
+:::
+
 `ElementInternals` allows custom elements to get the full feature set of form elements (labelling, validation, ARIA behaviors).
 
 ## Example
@@ -52,6 +57,9 @@ checkValidity() { return this._internals.checkValidity(); }
 reportValidity() {return this._internals.reportValidity(); }
 ```
 /via [MDN](https://developer.mozilla.org/en-US/docs/Web/API/ElementInternals/form)
+
+
+
 
 ## Resources
 

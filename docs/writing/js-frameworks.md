@@ -8,6 +8,8 @@ If you already author in a framework, it might be possible to use Web Components
 
 ### Svelte
 
+Svelte leverages a `<svelte:options>` config to output web components.
+
 ```html
 <svelte:options tag="my-counter" />
 
@@ -33,6 +35,8 @@ If you already author in a framework, it might be possible to use Web Components
 ```
 
 ### Vue 3
+
+Vue 3 uses a `defineCustomElement` wrapper around your existing Vue components to create web components.
 
 ```js
 import { defineCustomElement } from 'vue'
@@ -82,6 +86,9 @@ export default {
 ```
 
 ### Preact
+
+Preact uses a `createCustomElement` wrapper around Preact components to output web components.
+
 ```js
 import { createCustomElement } from "@wcd/preact-custom-element";
 import { Component, html } from "htm/preact";

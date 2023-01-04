@@ -35,6 +35,8 @@ At the time of writing, there are [61 libraries for making Web Components](https
 
 ### Lit
 
+Lit is a class-based React-flavored version of web components.
+
 ```js
 import { LitElement, html, css } from 'lit-element';
 
@@ -70,6 +72,8 @@ customElements.define('my-counter', MyCounter);
 
 ### Hybrids
 
+Hybrids is a succinct, more functional (Svelte-like?) flavor of web components.
+
 ```js
 import { html, define } from "hybrids";
 
@@ -95,6 +99,8 @@ define(MyCounter);
 ```
 
 ### Stencil
+
+Stencil is React-flavored with decorators. Aromas of Angular.
 
 ```
 /* @jsx h */
@@ -129,6 +135,8 @@ export class MyCounter {
 ```
 
 ### Haunted
+
+Haunted is hooks-flavored web components.
 
 ```js
 import { html, component, useState } from "haunted";
