@@ -4,11 +4,13 @@ title: "Template and Slot Elements"
 
 # Template and Slot Elements
 
-The Web Components specification brings two elements to the Web Platform, `<template>` and `<slot>`, for creating content fragments and passing content in to components.
+There are two elements which can be very useful in creating Web Components which you might not be familliar with: `<template>` and `<slot>`, for creating content fragments and passing content in to components.
 
 ## `<template>`
 
-The `template` element is a Web Standard for creating content fragments for reuse later in the application. By default browsers hide templates from rendering on the page.
+The `template` element is for creating "special" content fragments for reuse later in the application. 
+By default, you won't see the contents of templates rendered in the page.  Templates are often used to 
+define the Shadow Tree for a component.
 
 ```html
 <template>
@@ -16,12 +18,11 @@ The `template` element is a Web Standard for creating content fragments for reus
 </template>
 ```
 
-The superpower :sparkles: of the `<template>` element is that it gets pre-parsed by the HTML parser into a reusable content fragment. Then when rendering to the page, it can skip the parsing step of the expensive parse → layout → reflow loop the browser does when JavaScript injects content on the page. 
-
+The superpower :sparkles: of the `<template>` element is that it gets parsed by the HTML parser into a reusable and "inert" content fragment.  That is, the browser will not attempt to do things like load replaced elements or execute scripts inside the template.  The fragement created and be worked with as a parsed tree and inserted into the DOM relatively cheaply.
 
 ## `<slot>`
 
-The `<slot>` element is a child element of `<template>` and provides a way to pass HTML content ("Light DOM") into a template. If you've ever used Vue's slots feature this should be familiar.
+The `<slot>` element is for use inside a Shadow tree.  It provides a way to expose a "hole" into the Shadow DOM which the consumer can use to provide HTML content ("Light DOM") which will be "projected".   If you've ever used Vue's slots feature this should be familiar.
 
 ```html
 <template>
