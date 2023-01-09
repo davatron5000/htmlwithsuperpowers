@@ -4,7 +4,7 @@ title: "Template and Slot Elements"
 
 # Template and Slot Elements
 
-There are two elements which can be very useful in creating Web Components which you might not be familliar with: `<template>` and `<slot>`, for creating content fragments and passing content in to components.
+Two handy elements for creating content fragments and passing content to components you might not be familiar with are <template> and <slot>.
 
 ## `<template>`
 
