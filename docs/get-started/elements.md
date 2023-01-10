@@ -4,7 +4,7 @@ title: "Template and Slot Elements"
 
 # Template and Slot Elements
 
-Two handy elements for creating content fragments and passing content to components you might not be familiar with are <template> and <slot>.
+Two handy elements for creating content fragments and passing content to components that you might not be familiar with are `<template>` and `<slot>`.
 
 ## `<template>`
 
