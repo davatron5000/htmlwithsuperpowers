@@ -24,7 +24,7 @@ The phrasing "custom, reusuable, encapsulated" should sound familiar if you've b
 
 Web Components are akin to modern day JS frameworks like React, Svelte, and Vue, but with one key differentiator...
 
-## Web Components are a set Web Standards
+## Web Components are a set of Web Standards
 
 What makes Web Components different than JS frameworks is that they're a set of Web Standards built into the platform. 
 
