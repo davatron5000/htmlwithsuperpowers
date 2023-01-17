@@ -18,7 +18,7 @@ define the Shadow Tree for a component.
 </template>
 ```
 
-The superpower :sparkles: of the `<template>` element is that it gets parsed by the HTML parser into a reusable and "inert" content fragment.  That is, the browser will not attempt to do things like load replaced elements or execute scripts inside the template.  The fragement created and be worked with as a parsed tree and inserted into the DOM relatively cheaply.
+The superpower :sparkles: of the `<template>` element is that it gets parsed by the HTML parser into a reusable and "inert" content fragment.  That is, the browser will not attempt to do things like load replaced elements or execute scripts inside the template.  The fragment can   be worked with as a parsed tree and inserted into the DOM relatively cheaply.
 
 ## `<slot>`
 
