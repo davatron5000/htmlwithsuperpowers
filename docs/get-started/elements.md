@@ -10,7 +10,7 @@ Two handy elements for creating content fragments and passing content to compone
 
 The `template` element is for creating "special" content fragments for reuse later in the application. 
 By default, you won't see the contents of templates rendered in the page.  Templates are often used to 
-define the Shadow Tree for a component.
+define the Shadow tree for a component.
 
 ```html
 <template>
