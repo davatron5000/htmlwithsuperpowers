@@ -8,3 +8,5 @@ But work is underway to support web components in React. 🙌
 
 - Experimental React branch that supports Web Components [facebook/react#11347](https://github.com/facebook/react/issues/11347#issuecomment-988970952)
 - A web component wrapper for React components [@lit-labs/react](https://www.npmjs.com/package/@lit-labs/react)
+- Use your React components anywhere in your HTML as web components (custom elements). [rstacruz/remount](https://github.com/rstacruz/remount)
+- Utilise Shadow DOM in React with all the benefits of style encapsulation. [WildHoney/ReactShadow](https://github.com/Wildhoney/ReactShadow)
