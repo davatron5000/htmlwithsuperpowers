@@ -22,7 +22,9 @@ The superpower :sparkles: of the `<template>` element is that it gets parsed by 
 
 ## `<slot>`
 
-The `<slot>` element is for use inside a Shadow tree.  It provides a way to expose a "hole" into the Shadow DOM which the consumer can use to provide HTML content ("Light DOM") which will be "projected".   If you've ever used Vue's slots feature this should be familiar.
+The `<slot>` element creates a "hole" inside a web component's [Shadow DOM](/get-started/shadow-dom.html). We explain Shadow DOM later, but for now understand slots are a way to project your custom HTML content inside a web component. Not all web components have slots and Shadow DOM, but they are very common and one of web components' greatest superpowers :sparkles: 
+
+If you've ever used Vue's slots feature this should be familiar.
 
 ```html
 <template>
