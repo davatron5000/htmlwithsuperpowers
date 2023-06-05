@@ -4,7 +4,7 @@ title: Shadow DOM
 
 # Shadow DOM
 
-The Shadow DOM is the most complicated part of Web Components because they offer a level of encapsulation and isolation that has never existed on the web platfrom. 
+The Shadow DOM is the most complicated part of Web Components because they offer a level of encapsulation and isolation that has never existed on the web platform. 
 
 ```html
 <custom-alert>
