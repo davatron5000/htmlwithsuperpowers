@@ -1,6 +1,6 @@
 # Deep Styling Shadow DOM
 
-After seeing the ability to style Ligth DOM, it's tempting to want to style the Shadow DOM with a "deep" selector, one that tries to reach inside the custom element.
+After seeing the ability to style Light DOM, it's tempting to want to style the Shadow DOM with a "deep" selector, one that tries to reach inside the custom element.
 
 ```html
 <custom-alert>

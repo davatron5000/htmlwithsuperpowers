@@ -15,7 +15,7 @@ In practice, using web components looks something like this:
 <script src="/path/to/simple-greeting.js" type="module"></script>
 ```
 
-A script tag and a custom element is all you need to get started using Web Components. Some Web Componets act as wrapper around your content and allow you to upgrade your content into an interactive control.
+A script tag and a custom element is all you need to get started using Web Components. Some Web Components act as wrapper around your content and allow you to upgrade your content into an interactive control.
 
 ```html
 <generic-accordion>

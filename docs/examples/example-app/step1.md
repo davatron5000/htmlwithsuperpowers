@@ -1,7 +1,7 @@
 # Let's make a `<brewery-app>`
 
 ::: info
-🧑‍🚀 If you're reading this in the distant future CLI tools may have changed so your experience may be different. 
+🧑‍🚀 If you're reading this in the distant future CLI tools may have changed so your experience may be different.
 :::
 
 We're going to make a demo [brewery app based on this example from Open WC](https://open-wc.org/codelabs/intermediate/lit-html.html). We'll get started a little bit differently this time, we'll need to open a terminal on your local computer (with `npm` version 14+ installed) and use our first CLI tool:
@@ -50,7 +50,7 @@ At the end of this you'll end up with a file structure that looks like the follo
 │   └── web-test-runner.config.mjs
 ```
 
-Finally, `@open-wc` will confim you want to write files and install the dependencies.
+Finally, `@open-wc` will confirm you want to write files and install the dependencies.
 
 ```
 ✔ Do you want to write this file structure to disk? › Yes
@@ -63,7 +63,7 @@ The final step is to go into our project directory and start the application.
 ```bash
 cd brewery-app
 npm start
-``` 
+```
 
 ## Resources
 
