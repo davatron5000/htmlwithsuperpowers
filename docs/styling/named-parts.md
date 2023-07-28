@@ -1,6 +1,6 @@
 # Named Parts
 
-A lot of web components will offer pre-defined themes via props. 
+A lot of web components will offer pre-defined themes via props.
 
 ```css
 custom-alert::part(button) {
@@ -18,5 +18,5 @@ custom-alert::part(button) {
 
 ## Resources
 
-- [MDN]()
-- [CSS-Tricks]()
+- [Web Component Pseudo-Classes and Pseudo-Elements are Easier Than You Think](https://css-tricks.com/web-component-pseudo-classes-and-pseudo-elements/)
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/::part)

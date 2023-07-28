@@ -1,8 +1,8 @@
 # CSS Module Scripts
 
-In 2015 we got ES Modules but in 2021, we got CSS Module Scripts. Like how you can import JavaScript modules into your JS, you can now import CSS into your JavaScript; it's native CSS-in-JS! 
+In 2015 we got ES Modules but in 2021, we got CSS Module Scripts. Like how you can import JavaScript modules into your JS, you can now import CSS into your JavaScript; it's native CSS-in-JS!
 
-It pairs excellently with Web Components where imported styles get scoped to the compoennt.
+It pairs excellently with Web Components where imported styles get scoped to the component.
 
 ```js{1,7}
 import sheet from './custom-alert.css' assert {type: 'css'};
@@ -11,7 +11,7 @@ class CustomAlert extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: open })
-    this.shadowRoot.adoptedStyleSheets = [sheet];    
+    this.shadowRoot.adoptedStyleSheets = [sheet];
   }
 }
 ```

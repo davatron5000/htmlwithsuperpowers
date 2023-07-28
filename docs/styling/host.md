@@ -2,7 +2,7 @@
 
 Templates and Slots bring with them a handful of CSS pseudo-classes and pseudo-elements to help with styling.
 
-The `:host` pseudo-class is a reference to the custom element itself, but you're unable   `:root` pseudo-class in HTML. 
+The `:host` pseudo-class is a reference to the custom element itself, but you're unable to use the `:root` pseudo-class in HTML.
 
 ```css
 :host p {
@@ -26,4 +26,4 @@ The `:host` pseudo-class is a reference to the custom element itself, but you're
 ## Resources
 
 - [Web Component Pseudo-Classes and Pseudo-Elements are Easier Than You Think](https://css-tricks.com/web-component-pseudo-classes-and-pseudo-elements/)
-- [MDN]()
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:host)

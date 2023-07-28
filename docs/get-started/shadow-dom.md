@@ -4,7 +4,7 @@ title: Shadow DOM
 
 # Shadow DOM
 
-The Shadow DOM is the most complicated part of Web Components because they offer a level of encapsulation and isolation that has never existed on the web platform. 
+The Shadow DOM is the most complicated part of Web Components because they offer a level of encapsulation and isolation that has never existed on the web platform.
 
 ```html
 <custom-alert>
@@ -29,7 +29,7 @@ The Shadow DOM behaves a lot like an `<iframe>`, but better. Styling and scripti
 class CustomAlert extends HTMLElement {
   constructor() {
     super();
-    this.attachShadow({ 
+    this.attachShadow({
       mode: 'open'|'closed'       // default: 'closed'
       delegatesFocus: true|false  // default: false
     })
@@ -39,7 +39,7 @@ class CustomAlert extends HTMLElement {
 
 Shadow Roots have two modes
 
-  - `open`: Exposes the `customElement.shadowRoot` to external JavaScript  
+  - `open`: Exposes the `customElement.shadowRoot` to external JavaScript
   - `closed`: `customElement.shadowRoot` returns `null` to external JavaScript.
 
 ## Appending a `<template>`
@@ -59,5 +59,5 @@ class CustomAlert extends HTMLElement {
 
 ## Resources
 
-- [Shadow DOM on MDN]()
+- [Shadow DOM on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_shadow_DOM)
 - [Web components: from zero to hero](https://medium.com/@pascalschilp/web-components-from-zero-to-hero-cf3274752100) by Pascal Schilp

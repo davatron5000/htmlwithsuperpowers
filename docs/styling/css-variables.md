@@ -12,7 +12,7 @@ body {
 }
 ```
 
-If coded to look for the `--bg` property, the Web Component will apply it. And becuase CSS Custom Properties override at the block scope, you can update the appareance of two differnet elements.
+If coded to look for the `--bg` property, the Web Component will apply it. And because CSS Custom Properties override at the block scope, you can update the appearance of two different elements.
 
 ```css
 custom-alert:nth-of-type(1) {
@@ -23,7 +23,7 @@ custom-alert:nth-of-type(2) {
 }
 ```
 
-## Demo 
+## Demo
 
 <iframe height="400" style="width: 100%;" scrolling="no" title="&lt;custom-alert&gt; theme demo" src="https://codepen.io/davatron5000/embed/GRyGBjJ?default-tab=html%2Cresult&theme-id=light" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/davatron5000/pen/GRyGBjJ">
@@ -49,5 +49,4 @@ two-up {
 
 ## Resources
 
-- [MDN]()
-- [CSS-Tricks]()
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)

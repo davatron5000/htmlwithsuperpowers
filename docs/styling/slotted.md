@@ -30,5 +30,5 @@ This example would turn all direct child `<p>` elements slotted inside the custo
 
 ## Resources
 
-- [MDN]()
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/::slotted)
 - [ShadowDOM v1](https://web.dev/shadowdom-v1/)

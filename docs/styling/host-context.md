@@ -23,4 +23,4 @@
 ## Resources
 
 - [Web Component Pseudo-Classes and Pseudo-Elements are Easier Than You Think](https://css-tricks.com/web-component-pseudo-classes-and-pseudo-elements/)
-- [MDN]()
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:host-context)

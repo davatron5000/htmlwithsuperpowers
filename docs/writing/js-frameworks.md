@@ -1,6 +1,6 @@
 ## Popular JS Frameworks
 
-If you already author in a framework, it might be possible to use Web Components with small changes to either your exporting process or bundling config. Some of the libraries that are able to both import and export Web Componets are:
+If you already author in a framework, it might be possible to use Web Components with small changes to either your exporting process or bundling config. Some of the libraries that are able to both import and export Web Components are:
 
 - Svelte
 - Vue
