@@ -42,7 +42,7 @@ class BreweryApp extends LitElement {
       <p>(${totalVisited} visited and ${totalNotVisited} still to go)</p>
 
       <ul>
-        ${breweries.map(
+        ${this.breweries.map(
           brewery => html`
             <li>
               <h3>${brewery.name}</h3>

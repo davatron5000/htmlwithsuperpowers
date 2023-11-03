@@ -53,7 +53,7 @@ class BreweryApp extends LitElement {
       <button @click=${() => {this.filter = 'not-visited'}}>Filter not-visited</button>
 
       <ul>
-        ${breweries.map(
+        ${this.breweries.map(
           brewery => html`
             <li>
               <h3>${brewery.name}</h3>
