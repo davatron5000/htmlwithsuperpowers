@@ -25,7 +25,7 @@ class BreweryApp extends LitElement {
       <p>Found ${this.breweries.length} breweries</p>
 
       <ul>
-        ${breweries.map(
+        ${this.breweries.map(
           brewery => html`
             <li>${brewery.name}</li>
           `,
